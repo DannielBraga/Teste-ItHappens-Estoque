@@ -55,6 +55,25 @@
             </div>
         </div>
 
+        <div class="row tbProdutos" style="margin-top:30px; margin-left:-15px; display:none;">
+            <div class="col-sm-8">
+                <table class="table table-striped tableProdutos">
+                    <thead>
+                      <tr>
+                        <th>Descrição do Produto</th>
+                        <th>Quantidade</th>                    
+                      </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <br />
+        <div class="row tbProdutos" style="margin-top:30px; margin-left:-0px; display:none;">
+            <button type="button" id="btnSalvarPedido" style="margin-top:24px;" class="btn btn-success">Salvar Pedido</button>
+        </div>
     </div>
 
     <!-- jQuery -->
