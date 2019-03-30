@@ -29,18 +29,29 @@
         <h2>Bem-vindo ao Easy Estoque!</h2>
         <br />
 
-        <h3>Realize seu Pedido de Estoque abaixo.</h3>
-
-        <div class="row" style="margin-top:30px; margin-left:0px;">
-            <div class="col-sm-4">
+        <div class="row" style="margin-top:30px; margin-left:-15px;">
+            <div class="col-sm-3">
                 <label>Tipo de Pedido</label>
-                <select id="dropTipoPedido">                    
-                </select>
+                <select id="dropTipoPedido" class="form-control"></select>
             </div>
             <div class="col-sm-4">
                 <label>Filial do Estoque</label>
-                <select id="dropEstoque">                    
+                <select id="dropFilial" class="form-control"></select>
+            </div>
+        </div>
+
+        <div class="row divProdutos" style="margin-top:30px; margin-left:-15px; display:none;">
+            <div class="col-sm-3">
+                <label>Produto</label>
+                <select id="dropProduto" class="form-control">                    
                 </select>
+            </div>
+            <div class="col-sm-3">
+                <label>Quantidade</label>
+                <input type="text" id="txtQuantidade" class="form-control"/>
+            </div>
+            <div class="col-sm-1">
+                <button type="button" id="btnAddProduto" style="margin-top:24px;" class="btn btn-primary">Adicionar</button>
             </div>
         </div>
 
